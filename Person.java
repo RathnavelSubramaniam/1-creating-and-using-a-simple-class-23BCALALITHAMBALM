@@ -19,9 +19,9 @@ class Person
         Person b2=new Person("Alice","Smith",25);
         System.out.println("Person 1:" + b1.getfullname());
         System.out.println("Person 2:" + b2.getfullname());
-        int a1=b1.age;
-        int a2=b2.age;
-        int avg=a1+a2/2;
+        double a1=b1.age;
+        double a2=b2.age;
+        double avg=(a1+a2)/2;
         System.out.println("Average Age:"+avg); 
     }
  }
