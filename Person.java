@@ -11,18 +11,18 @@ class Person
     }
     String getfullname()
     {
-        return firstname+lastname;
+        return firstname+ " " +lastname;
     }
     public static void main(String arg[])
     {
-        Person b1=new Person("alice","bob",30);
-        Person b2=new Person("alice","bob",25);
-        System.out.println(b1.getfullname());
-        System.out.println(b2.getfullname());
+        Person b1=new Person("Jhon","Doe",30);
+        Person b2=new Person("Alice","Smith",25);
+        System.out.println("Person 1:" + b1.getfullname());
+        System.out.println("Person 2:" + b2.getfullname());
         int a1=b1.age;
         int a2=b2.age;
         int avg=a1+a2/2;
-        System.out.println("average="+avg);
+        System.out.println("Average Age:"+avg);
     }
  }
 
