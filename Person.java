@@ -22,7 +22,7 @@ class Person
         int a1=b1.age;
         int a2=b2.age;
         int avg=a1+a2/2;
-        System.out.println("Average Age:"+avg);
+        System.out.println("Average Age:"+avg); 
     }
  }
 
